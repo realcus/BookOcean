@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!--适应toolbar的主题-->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--去掉原来的actionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="windowNoTitle">true</item>
+
+        <!--指定toolbar弹出菜单样式-->
+        <item name="actionOverflowMenuStyle">@style/toolbarMenuStyle</item>
+    </style>
+
+    <!--自定义toolbar菜单样式-->
+    <style name="toolbarMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+
+        <!-- 是否覆盖锚点，默认为true，即盖住Toolbar -->
+        <item name="overlapAnchor">false</item>
+
+        <!-- 弹出层背景颜色 -->
+        <item name="android:popupBackground">@color/white</item>
+
+        <!-- 弹出层垂直方向上的偏移，负值会覆盖toolbar -->
+        <item name="android:dropDownVerticalOffset">5dp</item>
+
+        <!-- 弹出层水平方向上的偏移，即距离屏幕左边的距离，负值会导致右边出现空隙 -->
+        <item name="android:dropDownHorizontalOffset">-2dp</item>
+
+        <!--文字颜色-->
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!--自定义toolbar样式-->
+    <style name="toolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <!--带back返回上一级的style -->
+    <style name="CustomActionBarThemeBack"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarBack</item>
+    </style>
+    <style name="MyActionBarBack"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:icon">@drawable/back</item>
+    </style>
+    <style name="ActionBarTitle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">180dp</item>
+    </style>
+</resources>

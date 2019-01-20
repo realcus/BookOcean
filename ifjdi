@@ -1,0 +1,60 @@
+[33mcommit 2cdeac5927527342b0a438bb41bf4c38b8771ca0[m[33m ([m[1;36mHEAD -> [m[1;32mxdf_dev[m[33m)[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Tue Nov 6 11:52:57 2018 +0800
+
+    又添加了6个tab页
+
+[33mcommit eaf1e0ddca8bee4a2f345ac2512f302c2007f45e[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Mon Nov 5 18:04:56 2018 +0800
+
+    加入读书笔记详情页
+
+[33mcommit fb6db0caf8576aed28ca8edf36322f96f86e2ceb[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Mon Nov 5 17:36:33 2018 +0800
+
+    为listview item添加动画效果
+
+[33mcommit ef22c4926bc1f546a31549987b80485db88e0137[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Sat Nov 3 23:11:53 2018 +0800
+
+    名字改为图书大全宝典
+
+[33mcommit 4bf446aaaedfbb83d169cd4e4918cd3461c0cff1[m
+Merge: 3410527 1c03bdc
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Wed Oct 24 16:38:00 2018 +0800
+
+    接入马甲包sdk合并
+
+[33mcommit 1c03bdca5e65a8a262586176449368c019b50adf[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Wed Oct 24 15:48:03 2018 +0800
+
+    接入马甲sdk
+
+[33mcommit 3410527be5154fd6e55846e528d6f3cb4d4f3cfa[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Tue Oct 23 17:26:18 2018 +0800
+
+    更新readme
+
+[33mcommit 39bcd41a8c1ebb35ea7905cc4da713993eb4a896[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Tue Oct 23 17:16:24 2018 +0800
+
+    修改app名字
+
+[33mcommit f00f053480d29ae5a239d3328c0a96429f24ab0f[m
+Author: fxjzzyo <1459244707@qq.com>
+Date:   Tue Oct 23 16:44:30 2018 +0800
+
+    初始化工程
+
+[33mcommit 3e1df450ca39a10c939e785443f079576ff6b70c[m
+Author: FanLulin <1459244707@qq.com>
+Date:   Tue Oct 23 16:43:24 2018 +0800
+
+    Initial commit

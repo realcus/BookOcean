@@ -1,0 +1,27 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    <!--带back返回上一级的style -->
+    <style name="CustomActionBarThemeBack"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarBack</item>
+    </style>
+    <style name="MyActionBarBack"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:icon">@drawable/back</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ActionBarTitle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">180dp</item>
+    </style>
+</resources>

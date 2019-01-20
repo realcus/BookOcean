@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">图书大全</string>
+
+    <string name="title_activity_search">搜索</string>
+</resources>
